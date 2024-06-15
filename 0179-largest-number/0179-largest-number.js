@@ -7,8 +7,3 @@ var largestNumber = function(nums) {
         return (b+''+a)- (a+''+b)
     }).join('').replace(/^0*/,'') || '0'
 };
-// var largestNumber = function(nums) {
-//   return nums.sort(function(a, b) {
-//         return (b + '' + a ) - (a + '' + b);
-//     }).join('').replace(/^0*/,'') || '0';
-// }
