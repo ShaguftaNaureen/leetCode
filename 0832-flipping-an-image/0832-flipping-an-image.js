@@ -9,4 +9,9 @@ var flipAndInvertImage = function(image) {
     }
 
     return image;
+
+    // for(let row in images){
+    //     reverse(row)
+    //     flip(row)
+    // }
 };
